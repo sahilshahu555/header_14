@@ -1,0 +1,149 @@
+body{
+    color: white;
+    background-color: rgb(47,24,147);
+    width: 1400px;
+    height: 890px;
+}
+/* Main Section */
+
+/* Navbar Section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 972px;
+    margin: auto;
+    height: 40px;
+    margin-top: 65px;
+}
+.pages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.pages>li{
+    list-style: none;
+    margin-left: 40px
+}
+#li1{
+    background-color: rgb(47,24,147);
+    border: none;
+    color: rgb(136, 139, 141);
+}
+#li4{
+    background-color:rgb(233,58,125);
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 5px 10px ;
+}
+
+/*!------ Box Section ------- */
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 972px;
+    margin: auto;
+    height: 600px;
+}
+
+.box1{
+  width: 427px;
+  height: 496px;
+}
+.box1 h2{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    width: 424px;
+    height: 217px;
+}
+.box1 h5{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+    width: 363px;
+    height: 160px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.box1 button{
+    background-color:rgb(233,58,125);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+/*! Box 2 section */
+
+.box2{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ background-color: white;
+ width: 470px;
+ height: 600px;
+ border-radius: 10px;
+ margin-top: 100px;
+}
+
+.box2 input{
+   width: 300px;
+   height: 50px;
+   border-radius: 20px;
+   padding-left:30px ;
+   border-color: rgb(207, 209, 212);
+   font-size: 16px;
+}
+.box2 div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+#check{
+   margin-left:-100px ;
+    width: 20px;
+    height: 20px;
+}
+.box2 h1{
+    color: rgb(30,14,98);
+    width: 247px;
+    text-align: center;
+    height: 52px;
+    margin-top: 50px;
+}
+.box2 button{
+    width: 330px;
+    height: 50px;
+    font-size: 16px;
+}
+#b1{
+    background-color: rgb(47,24,147);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+#b2{
+    background-color: rgb(38, 175, 233);
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+.box2 span{
+    color: rgb(119, 118, 123);
+}
+.box2 hr{
+    background-color: rgb(96, 95, 101);
+    width: 330px;
+   
+}
+#or{
+    position: absolute;
+    bottom: 0px;
+    background-color: white;
+    width: 40px;
+    text-align: center;
+     
+}
