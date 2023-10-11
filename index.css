@@ -23,9 +23,11 @@ body{
     justify-content: space-between;
     align-items: center; 
 }
-.pages>li{
-    list-style: none;
-    margin-left: 40px
+.pages>a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    
 }
 #li1{
     background-color: rgb(47,24,147);
